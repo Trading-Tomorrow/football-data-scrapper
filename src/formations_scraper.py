@@ -10,14 +10,14 @@ from selenium.webdriver.support import expected_conditions as EC
 # ----------------------------
 # 1. Load your CSV
 # ----------------------------
-CSV_PATH = "premierleague_2016_17_stats.csv"
+CSV_PATH = "premierleague_2015_16_stats.csv"
 df = pd.read_csv(CSV_PATH)
 
 # Column name – adjust if needed
 GAME_ID_COL = "game_id"
 
 # Output file
-OUTPUT_FILE = "lineups_data_2016_17.csv"
+OUTPUT_FILE = "lineups_data_2015_16.csv"
 
 # ----------------------------
 # 2. Setup Webdriver

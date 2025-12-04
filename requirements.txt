@@ -1,4 +1,5 @@
-soccerdata
 pandas
-setuptools>=69
+scikit-learn
+numpy
+soccerdata
 datafc
